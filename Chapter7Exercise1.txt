@@ -1,0 +1,10 @@
+//intermediate  javascript chapter 7 exercise 1
+
+function incrementNum(theNumber) {
+if (isNaN(theNumber)) {
+alert("Sorry, " + theNumber + " isn't a number.");
+return;
+}
+return theNumber + 1;
+}
+alert(incrementNum(3));
